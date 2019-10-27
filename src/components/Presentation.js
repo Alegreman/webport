@@ -44,6 +44,19 @@ const A = styled.a`
 
 const Container = styled.div`
   height: 100%;
+  @media (max-width: 600px) {
+    & p {
+      font-size: 1rem;
+      margin: 1rem 1rem;
+    }
+    & button {
+      display: inline-flex;
+      padding: 1rem;
+    }
+    & #Footer {
+      position: relative;
+    }
+  }
 `;
 
 const Foot = styled.div`

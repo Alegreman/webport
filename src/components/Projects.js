@@ -11,9 +11,17 @@ const Projectt = styled.div`
     max-width: 400px;
     max-height: 220px;
     align-items: center;
+    position: relative;
+    z-index: -1;
   }
   & img {
     filter: drop-shadow(0 0 10px #000);
+  }
+  @media (max-width: 600px) {
+    img {
+      max-width: 250px;
+      max-height: 170px;
+    }
   }
 `;
 const Foot = styled.div`
@@ -54,11 +62,20 @@ const Button = styled.button`
     color: white;
     border: 2px solid #ff6361;
   }
+  @media (max-width: 600px) {
+    display: inline-flex;
+    padding: 1rem;
+    font-size: 1rem;
+  }
 `;
 const Tech = styled.p`
   font-family: RobotoCondensed;
   src: url(assets/RobotoCondensed-Light.ttf);
   font-weight: 800;
+  @media (max-width: 600px) {
+    font-size: 1rem;
+    font-style: bold;
+  }
 `;
 
 const Link = styled.a`

@@ -12,6 +12,10 @@ const Intro = styled.p`
   text-align: justify;
   font-size: 1.3rem;
   padding: 0.5rem;
+  @media (max-width: 600px) {
+    font-size: 1rem;
+    margin: 1rem 1rem;
+  }
 `;
 
 const List = styled.ul`
@@ -23,6 +27,11 @@ const List = styled.ul`
   font-weight: bold;
   font-family: RobotoCondensed;
   font-size: 2rem;
+  @media (max-width: 600px) {
+    font-size: 1rem;
+    width: 50%;
+    margin: 1rem;
+  }
 `;
 
 const Title = styled.p`
@@ -31,6 +40,12 @@ const Title = styled.p`
   font-weight: bold;
   padding: auto 3rem;
   text-align: center;
+  @media (max-width: 600px) {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 2rem;
+    padding: 0 5px;
+  }
 `;
 
 const Foot = styled.div`

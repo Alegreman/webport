@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Side_drawer = styled.nav`
   height: 100%;
-  background-color: white;
+  background-color: whitesmoke;
   box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   left: 0;
-  width: 70%;
+  width: 50%;
   max-width: 400px;
   z-index: 200;
   & ul {
