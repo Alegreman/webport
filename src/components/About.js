@@ -63,6 +63,9 @@ const Foot = styled.div`
   @media (max-width: 768px) {
     position: relative;
   }
+  @media (min-width: 1000px) {
+    position: relative;
+  }
 `;
 
 const About = () => {

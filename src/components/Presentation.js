@@ -28,7 +28,7 @@ const Button = styled.button`
   border-radius: 3px;
   color: white;
   border: 2px solid #003f5c;
-  margin: 0 1em;
+  margin: 3rem 1rem;
   padding: 0.25em 1em;
   transition: 0.5s all ease-out;
   &:hover {
@@ -52,9 +52,15 @@ const Container = styled.div`
     & button {
       display: inline-flex;
       padding: 1rem;
+      margin-top: 4rem;
     }
     & #Footer {
       position: relative;
+    }
+    @media (min-width: 710px) {
+      & #Footer {
+        position: relative;
+      }
     }
   }
 `;
