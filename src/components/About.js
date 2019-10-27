@@ -72,9 +72,9 @@ const About = () => {
   return (
     <div className='about'>
       <Intro>
-        I'm Jorge Alegría, I have a Bachelor in Science Degree in Computer
-        Systems Engineering and <br />
-        lately I'm been focusing in Fullstack Web Development.
+        I'm Jorge Alegría, I have a Bachelor degree in Computer Systems
+        Engineering and <br />
+        lately I have been focusing in Fullstack Web Development.
         <br />A couple of months before I graduated from college, I started to
         work with React and Node in various projects.
       </Intro>
