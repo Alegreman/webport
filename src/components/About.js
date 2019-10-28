@@ -74,7 +74,7 @@ const About = () => {
       <Intro>
         I'm Jorge Alegría, I have a Bachelor degree in Computer Systems
         Engineering and <br />
-        lately I have been focusing in Fullstack Web Development.
+        recently I have been focusing in Fullstack Web Development.
         <br />A couple of months before I graduated from college, I started to
         work with React and Node in various projects.
       </Intro>
